@@ -1,5 +1,60 @@
+/*Start styles for the top navbar */
+.top {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  top: 10px;
+  right: 10px;
+}
+
+.top ul {
+  list-style-type: none;
+  float: right;
+  }
+.top li{
+  float:left;
+  margin:0 10px;
+  display: inline;
+  vertical-align: middle;
+  line-height:  24px;
+}
+.top li a {
+
+  color: #000;
+  font-size: 13px;
+  font-family: Arial;
+  vertical-align: middle;
+}
+.more-apps {
+  position: relative;
+  top:4px;
+  display:block;
+}
+.line{
+  clear:both;
+}
+
+.box {
+  float:left;
+  width: 4px;
+  height:4px;
+  margin:1px;
+  background-color: #2f2f2f;
+}
+.sign-in {
+  background-color: #4285f4;
+  color: white;
+  padding: 0px 15px;
+  font-weight: bold;
+  border-radius: 5%;
+}
+/*End styles for the top navgar */
+
+/*Start on the main body of the search*/
 .body {
-  margin: 100px auto;
+  margin: 200px auto;
   width: 50%;
 }
 .body img {
@@ -30,6 +85,9 @@
   background-color: #f2f2f2;
   border: none;
   box-shadow: none;
+}
+a{
+  text-decoration: none;
 }
 .perform-search input:hover {
   border: 1px solid #d9d9d9;

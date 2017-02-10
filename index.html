@@ -2,15 +2,40 @@
 <html>
 <head>
   <title>Google</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
-  <div class="top"></div>
+  <div class="top">
+    <ul>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <li><a href="#" class="more-apps">
+        <div clas="line">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div clas="line">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div clas="line">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </a></li>
+      <li><a href="#4"><div class="sign-in">Sign in</div></li>
+    </ul>
+  </div>
   <div class="body">
     <img src="images/googlelogo_color_272x92dp.png" alt="Google logo" />
     <form action="#" name="google-search">
       <div id="outer-box">
         <input type="text" id="search"/>
+        <!--<img src="images/mic.png" class="mic"/>-->
       </div>
       <div class="perform-search">
         <input type="submit" value="Google Search" />
