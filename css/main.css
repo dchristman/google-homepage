@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+}
+
 /*Start styles for the top navbar */
 .top {
   position: fixed;
@@ -86,9 +90,40 @@
   border: none;
   box-shadow: none;
 }
-a{
-  text-decoration: none;
-}
+
 .perform-search input:hover {
   border: 1px solid #d9d9d9;
+}
+
+/*End styles for main body*/
+
+/*Begin styles for footer*/
+.footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  vertical-align: middle;
+  padding: 8px 13px;
+}
+.footer li {
+  display: inline;
+  float: left;
+  margin: 3px 10px;
+  font-size: 13px;
+  padding: 5px;
+  font-family: arial, sans-serif;
+}
+.footer a {
+  color: #757575;
+}
+.footer-right li {
+  float: right;
+}
+.footer-right {
+  position: absolute;
+  right: 30px;
+}
+.footer a:hover{
+  text-decoration: underline;
 }
